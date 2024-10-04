@@ -1,11 +1,11 @@
-# Dibimbing Belajar GitHub
+# Project Praktik Git dan Python untuk Membaca File CSV
 
 ## Deskripsi Project
-Repository ini dibuat sebagai bagian dari tugas dalam Bootcamp Data Engineer, yang bertujuan untuk mempraktikkan penggunaan Git, mulai dari pembuatan repository, branching, commit, hingga pull request. Selain itu, repository ini juga berisi file Python untuk membaca file CSV yang diberikan.
+Repository ini dibuat sebagai bagian dari tugas dalam Bootcamp Data Engineer, bertujuan untuk mempraktikkan penggunaan Git, mulai dari pembuatan repository, branching, commit, hingga pull request. Selain itu, repository ini juga berisi file Python untuk membaca file CSV yang diberikan.
 
 ## File dalam Repository
 1. **username.csv**: File CSV yang diberikan untuk tugas.
-2. **read_csv.py**: Script Python yang berisi fungsi untuk membaca dan menampilkan isi dari file CSV.
+2. **read_csv.py**: Skrip Python yang berisi fungsi untuk membaca dan menampilkan isi dari file CSV.
 
 ## Langkah-langkah Project
 
@@ -13,7 +13,7 @@ Repository ini dibuat sebagai bagian dari tugas dalam Bootcamp Data Engineer, ya
 Repository GitHub dengan nama `dibimbing-belajar-github` dibuat untuk Project ini.
 ![Screenshot Pembuatan Repository](images/1_Membuat_Repository_di_GitHub.png)
 
-### 2. Clone Repository ke Local
+### 2. Meng-clone Repository ke Local
 Repository di-clone ke direktori lokal menggunakan perintah `git clone`.
 ![Screenshot Clone Repository](images/2_Clone_Repository_ke_Local.png)
 
@@ -25,7 +25,7 @@ File Python `read_csv.py` dibuat dengan fungsi untuk membaca dan menampilkan isi
 Branch baru dengan nama `feature/baca_csv` dibuat untuk menambahkan fitur pembacaan file CSV.
 ![Screenshot Pembuatan Branch](images/4_Membuat_Branch_Baru.png)
 
-### 5. Commit dan Push File ke Branch Baru
+### 5. Melakukan Commit dan Push ke Branch Baru
 File `read_csv.py` di-commit dan di-push ke branch `feature/baca_csv`.
 ![Screenshot Commit dan Push](images/5_Commit_dan_Push_File_ke_Branch_Baru.png)
 
@@ -33,7 +33,7 @@ File `read_csv.py` di-commit dan di-push ke branch `feature/baca_csv`.
 Pull request dibuat dan di-merge ke branch `main`.
 ![Screenshot Pull Request](images/6_Membuat_Pull_Request.png)
 
-### 7. Pull Perubahan dari Remote ke Local
+### 7. Menarik Perubahan dari Remote ke Local
 Perubahan yang telah di-merge ke branch `main` di-pull ke repository lokal.
 ![Screenshot Pull Perubahan](images/7_Pull_Perubahan_dari_Remote_ke_Local.png)
 
