@@ -1,16 +1,16 @@
 # Dibimbing Belajar GitHub
 
-## Deskripsi Proyek
+## Deskripsi Project
 Repository ini dibuat sebagai bagian dari tugas dalam Bootcamp Data Engineer, yang bertujuan untuk mempraktikkan penggunaan Git, mulai dari pembuatan repository, branching, commit, hingga pull request. Selain itu, repository ini juga berisi file Python untuk membaca file CSV yang diberikan.
 
 ## File dalam Repository
 1. **username.csv**: File CSV yang diberikan untuk tugas.
 2. **read_csv.py**: Script Python yang berisi fungsi untuk membaca dan menampilkan isi dari file CSV.
 
-## Langkah-langkah Proyek
+## Langkah-langkah Project
 
 ### 1. Membuat Repository di GitHub
-Repository GitHub dengan nama `dibimbing-belajar-github` dibuat untuk proyek ini.
+Repository GitHub dengan nama `dibimbing-belajar-github` dibuat untuk Project ini.
 ![Screenshot Pembuatan Repository](images/1_Membuat_Repository_di_GitHub.png)
 
 ### 2. Clone Repository ke Local
@@ -38,7 +38,7 @@ Perubahan yang telah di-merge ke branch `main` di-pull ke repository lokal.
 ![Screenshot Pull Perubahan](images/7_Pull_Perubahan_dari_Remote_ke_Local.png)
 
 ## Kesimpulan
-Dalam proyek ini, saya telah berhasil:
+Dalam Project ini, saya telah berhasil:
 - Membuat dan mengelola repository GitHub.
 - Membuat branch, melakukan commit, dan push ke repository.
 - Membuat pull request dan melakukan merge ke branch utama.
