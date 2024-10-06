@@ -1,49 +1,49 @@
-# Project Praktik Git dan Python untuk Membaca File CSV
+# Git and Python Project for Reading CSV Files
 
-## Deskripsi Project
-Repository ini dibuat sebagai bagian dari tugas dalam Bootcamp Data Engineer, bertujuan untuk mempraktikkan penggunaan Git, mulai dari pembuatan repository, branching, commit, hingga pull request. Selain itu, repository ini juga berisi file Python untuk membaca file CSV yang diberikan.
+## Project Description
+This repository was created as part of the assignment in the Data Engineer Bootcamp, aimed at practicing the use of Git, from repository creation, branching, committing, to pull requests. Additionally, this repository also contains a Python file for reading the provided CSV file.
 
-## File dalam Repository
-1. **username.csv**: File CSV yang diberikan untuk tugas.
-2. **read_csv.py**: Skrip Python yang berisi fungsi untuk membaca dan menampilkan isi dari file CSV.
+## Files in the Repository
+1. **username.csv**: The CSV file provided for the assignment.
+2. **read_csv.py**: A Python script that contains a function to read and display the contents of the CSV file.
 
-## Langkah-langkah Project
+## Project Steps
 
-### 1. Membuat Repository di GitHub
-Repository GitHub dengan nama `dibimbing-belajar-github` dibuat untuk Project ini.
-![Screenshot Pembuatan Repository](images/1_Membuat_Repository_di_GitHub.png)
+### 1. Creating a Repository on GitHub
+A GitHub repository named `dibimbing-belajar-github` was created for this project.
+![Screenshot of Repository Creation](images/1_Membuat_Repository_di_GitHub.png)
 
-### 2. Meng-clone Repository ke Local
-Repository di-clone ke direktori lokal menggunakan perintah `git clone`.
-![Screenshot Clone Repository](images/2_Clone_Repository_ke_Local.png)
+### 2. Cloning the Repository Locally
+The repository was cloned to the local directory using the command `git clone`.
+![Screenshot of Cloning Repository](images/2_Clone_Repository_ke_Local.png)
 
-### 3. Membuat File Python untuk Membaca File CSV
-File Python `read_csv.py` dibuat dengan fungsi untuk membaca dan menampilkan isi dari `username.csv`.
-![Screenshot Kode Python](images/3_Membuat_File_Python_untuk_Membaca_File_CSV.png)
+### 3. Creating a Python File to Read the CSV File
+The Python file `read_csv.py` was created with a function to read and display the contents of `username.csv`.
+![Screenshot of Python Code](images/3_Membuat_File_Python_untuk_Membaca_File_CSV.png)
 
-### 4. Membuat Branch Baru
-Branch baru dengan nama `feature/baca_csv` dibuat untuk menambahkan fitur pembacaan file CSV.
-![Screenshot Pembuatan Branch](images/4_Membuat_Branch_Baru.png)
+### 4. Creating a New Branch
+A new branch named `feature/read_csv` was created to add the CSV reading feature.
+![Screenshot of Branch Creation](images/4_Membuat_Branch_Baru.png)
 
-### 5. Melakukan Commit dan Push ke Branch Baru
-File `read_csv.py` di-commit dan di-push ke branch `feature/baca_csv`.
-![Screenshot Commit dan Push](images/5_Commit_dan_Push_File_ke_Branch_Baru.png)
+### 5. Committing and Pushing to the New Branch
+The file `read_csv.py` was committed and pushed to the `feature/read_csv` branch.
+![Screenshot of Commit and Push](images/5_Commit_dan_Push_File_ke_Branch_Baru.png)
 
-### 6. Membuat Pull Request
-Pull request dibuat dan di-merge ke branch `main`.
-![Screenshot Pull Request](images/6_Membuat_Pull_Request.png)
+### 6. Creating a Pull Request
+A pull request was created and merged into the `main` branch.
+![Screenshot of Pull Request](images/6_Membuat_Pull_Request.png)
 
-### 7. Menarik Perubahan dari Remote ke Local
-Perubahan yang telah di-merge ke branch `main` di-pull ke repository lokal.
-![Screenshot Pull Perubahan](images/7_Pull_Perubahan_dari_Remote_ke_Local.png)
+### 7. Pulling Changes from Remote to Local
+The changes that were merged into the `main` branch were pulled into the local repository.
+![Screenshot of Pull Changes](images/7_Pull_Perubahan_dari_Remote_ke_Local.png)
 
-## Kesimpulan
-Dalam Project ini, saya telah berhasil:
-- Membuat dan mengelola repository GitHub.
-- Membuat branch, melakukan commit, dan push ke repository.
-- Membuat pull request dan melakukan merge ke branch utama.
-- Membaca dan menampilkan data dari file CSV menggunakan Python.
+## Conclusion
+In this project, I successfully:
+- Created and managed a GitHub repository.
+- Created branches, committed, and pushed to the repository.
+- Created a pull request and merged it into the main branch.
+- Read and displayed data from a CSV file using Python.
 
-## Referensi
-- [Dokumentasi Git](https://git-scm.com/doc)
-- [Dokumentasi Python CSV](https://docs.python.org/3/library/csv.html)
+## References
+- [Git Documentation](https://git-scm.com/doc)
+- [Python CSV Documentation](https://docs.python.org/3/library/csv.html)
