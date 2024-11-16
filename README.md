@@ -1,49 +1,134 @@
-# Git and Python Project for Reading CSV Files
+# CSV File Reader with Git Implementation
 
-## Project Description
-This repository was created as part of the assignment in the Data Engineer Bootcamp, aimed at practicing the use of Git, from repository creation, branching, committing, to pull requests. Additionally, this repository also contains a Python file for reading the provided CSV file.
+## Overview
+This project demonstrates Git workflow implementation and CSV file handling in Python. Created as part of the Data Engineer Bootcamp at Dibimbing, this project showcases version control best practices and basic data handling capabilities.
 
-## Files in the Repository
-1. **username.csv**: The CSV file provided for the assignment.
-2. **read_csv.py**: A Python script that contains a function to read and display the contents of the CSV file.
+## Prerequisites
+- Python 3.8+
+- Git
+- Basic understanding of CSV file structure
 
-## Project Steps
+## Installation & Setup
+1. Clone the repository
+   ```bash
+   git clone https://github.com/[your-username]/dibimbing-belajar-github.git
+   ```
+2. Navigate to project directory
+   ```bash
+   cd dibimbing-belajar-github
+   ```
+3. Run the Python script
+   ```bash
+   python read_csv.py
+   ```
 
-### 1. Creating a Repository on GitHub
-A GitHub repository named `dibimbing-belajar-github` was created for this project.
+## Project Structure
+```
+dibimbing-belajar-github/
+├── read_csv.py          # Main Python script for CSV reading
+├── username.csv         # Sample CSV file
+├── images/             # Screenshots directory
+│   ├── 1_Membuat_Repository_di_GitHub.png
+│   ├── 2_Clone_Repository_ke_Local.png
+│   ├── 3_Membuat_File_Python_untuk_Membaca_File_CSV.png
+│   ├── 4_Membuat_Branch_Baru.png
+│   ├── 5_Commit_dan_Push_File_ke_Branch_Baru.png
+│   ├── 6_Membuat_Pull_Request.png
+│   └── 7_Pull_Perubahan_dari_Remote_ke_Local.png
+└── README.md           # Project documentation
+```
+
+## Features
+- CSV File Reading: Implements basic CSV file reading functionality
+- Git Workflow: Demonstrates complete Git workflow including branching and PR
+- Documentation: Includes comprehensive documentation with visual guides
+
+## Implementation Details
+
+### Python Implementation
+```python
+import csv
+
+def read_csv(filename):
+    """
+    Reads and displays contents of a CSV file
+    
+    Parameters:
+        filename (str): Path to the CSV file
+    
+    Returns:
+        None: Prints each row of the CSV file
+    """
+    with open(filename, newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            print(row)
+```
+
+### Git Workflow Implementation
+
+#### 1. Repository Creation
+Created a new GitHub repository named `dibimbing-belajar-github`.
 ![Screenshot of Repository Creation](images/1_Membuat_Repository_di_GitHub.png)
 
-### 2. Cloning the Repository Locally
-The repository was cloned to the local directory using the command `git clone`.
+#### 2. Local Repository Setup
+Cloned the repository to local machine.
 ![Screenshot of Cloning Repository](images/2_Clone_Repository_ke_Local.png)
 
-### 3. Creating a Python File to Read the CSV File
-The Python file `read_csv.py` was created with a function to read and display the contents of `username.csv`.
+#### 3. Feature Development
+Created Python script for CSV reading functionality.
 ![Screenshot of Python Code](images/3_Membuat_File_Python_untuk_Membaca_File_CSV.png)
 
-### 4. Creating a New Branch
-A new branch named `feature/read_csv` was created to add the CSV reading feature.
+#### 4. Branch Management
+Created and switched to feature branch `feature/read_csv`.
 ![Screenshot of Branch Creation](images/4_Membuat_Branch_Baru.png)
 
-### 5. Committing and Pushing to the New Branch
-The file `read_csv.py` was committed and pushed to the `feature/read_csv` branch.
+#### 5. Code Integration
+Committed and pushed changes to feature branch.
 ![Screenshot of Commit and Push](images/5_Commit_dan_Push_File_ke_Branch_Baru.png)
 
-### 6. Creating a Pull Request
-A pull request was created and merged into the `main` branch.
+#### 6. Pull Request
+Created and managed pull request for code review.
 ![Screenshot of Pull Request](images/6_Membuat_Pull_Request.png)
 
-### 7. Pulling Changes from Remote to Local
-The changes that were merged into the `main` branch were pulled into the local repository.
+#### 7. Main Branch Update
+Pulled merged changes to local repository.
 ![Screenshot of Pull Changes](images/7_Pull_Perubahan_dari_Remote_ke_Local.png)
 
-## Conclusion
-In this project, I successfully:
-- Created and managed a GitHub repository.
-- Created branches, committed, and pushed to the repository.
-- Created a pull request and merged it into the main branch.
-- Read and displayed data from a CSV file using Python.
+## Best Practices Implemented
+1. **Version Control**
+   - Proper branch naming (`feature/read_csv`)
+   - Meaningful commit messages
+   - Pull request workflow
+
+2. **Code Organization**
+   - Modular function definition
+   - Proper file handling
+   - Clear code documentation
+
+3. **Documentation**
+   - Visual guides with screenshots
+   - Step-by-step instructions
+   - Clear project structure
+
+## Technologies Used
+- Python 3.8+
+- Git 2.x
+- CSV Module (Python Standard Library)
+- GitHub for version control hosting
+
+## Future Improvements
+- Add error handling for file operations
+- Implement CSV validation
+- Add data processing capabilities
+- Include unit tests
 
 ## References
 - [Git Documentation](https://git-scm.com/doc)
 - [Python CSV Documentation](https://docs.python.org/3/library/csv.html)
+- [GitHub Flow Guide](https://guides.github.com/introduction/flow/)
+- [Python Best Practices](https://www.python.org/dev/peps/pep-0008/)
+
+## Author
+Abil Farabil
+Data Engineering Bootcamp Student at Dibimbing
