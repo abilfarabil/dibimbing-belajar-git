@@ -11,7 +11,7 @@ This project demonstrates Git workflow implementation and CSV file handling in P
 ## Installation & Setup
 1. Clone the repository
    ```bash
-   git clone https://github.com/[your-username]/dibimbing-belajar-github.git
+   git clone https://github.com/abilfarabil/dibimbing-belajar-git.git
    ```
 2. Navigate to project directory
    ```bash
